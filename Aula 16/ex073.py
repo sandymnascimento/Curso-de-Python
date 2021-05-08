@@ -1,0 +1,15 @@
+brasileirão = ('Flamengo', 'Internacional', 'Atlético - MG', 'São Paulo', 'Fluminense', 'Grêmio', 'Palmeiras', 'Santos', 'Athletico - PR',
+               'Bragantino', 'Ceará SC', 'Corinthians', 'Atlético - GO', 'Bahia', 'Sport Recife', 'Fortaleza', 'Vasco da Gama', 'Goiás',
+               'Coritiba', 'Botafogo')
+print('\033[1mListagem dos times segundo a tabela do Brasilerão 2020:\033[m')
+print(brasileirão)
+print('\033[1m- ' * 65)
+print('\033[1mListagem dos times em orgem alfabética:\033[m')
+print(sorted(brasileirão))
+print('\033[1m- ' * 65)
+print(f'\033[1mOs cinco primeiros colocados do Brasileirão são: {brasileirão[:5]}')
+print('- ' * 65)
+print(f'\033[1mOs quatro últimos colocados da tabela são: {brasileirão[-4:]}')
+print('- ' * 65)
+print(f'\033[1mO Palmeiras está na {brasileirão.index("Palmeiras") + 1}ª posição da tabela.')
+print('- ' * 65)
